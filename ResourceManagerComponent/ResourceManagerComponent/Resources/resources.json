@@ -1,0 +1,123 @@
+{ "resources": {
+        "textures":
+        {
+            "player":
+            {
+                "key": "player_texture",
+                "path": "Resources/Textures/player.png"
+            },
+			"enemy":
+            {
+                "key": "enemy_texture",
+                "path": "Resources/Textures/enemy.png"
+            }
+        },
+        
+        "music":
+        {
+            "game":
+            {
+                "key": "game_music",
+                "path": "Resources/Music/game_music.ogg"
+            },
+			"end":
+            {
+                "key": "end_music",
+                "path": "Resources/Music/end_music.wav"
+            }
+        },
+
+		"effects":
+		{
+			"jump":
+            {
+                "key": "jump",
+                "path": "Resources/SoundEffects/jump.wav"
+            },
+			"land":
+            {
+                "key": "land",
+                "path": "Resources/SoundEffects/land.wav"
+            }
+		},
+		
+		"animations":
+		{
+			"placeholder":
+			{
+				"key": "placeholder",
+                "path": "Resources/Textures/placeholder.png",
+				"frames": 4,
+				
+				"metaData":
+				{
+					"frame1":
+					{
+						"width": 128,
+						"height": 128,
+						"x": 0,
+						"y": 0
+					},
+					"frame2":
+					{
+						"width": 128,
+						"height": 128,
+						"x": 128,
+						"y": 0
+					},
+					"frame3":
+					{
+						"width": 128,
+						"height": 128,
+						"x": 0,
+						"y": 128
+					},
+					"frame4":
+					{
+						"width": 128,
+						"height": 128,
+						"x": 128,
+						"y": 128
+					}
+				}
+			},
+			"stick_man":
+			{
+				"key": "stick_man",
+                "path": "Resources/Textures/sprite_sheet.png",
+				"frames": 4,
+				
+				"metaData":
+				{
+					"frame1":
+					{
+						"width": 64,
+						"height": 205,
+						"x": 0,
+						"y": 0
+					},
+					"frame2":
+					{
+						"width": 64,
+						"height": 205,
+						"x": 64,
+						"y": 0
+					},
+					"frame3":
+					{
+						"width": 64,
+						"height": 205,
+						"x": 128,
+						"y": 0
+					},
+					"frame4":
+					{
+						"width": 64,
+						"height": 205,
+						"x": 196,
+						"y": 0
+					}
+				}
+			}
+		}
+}}
